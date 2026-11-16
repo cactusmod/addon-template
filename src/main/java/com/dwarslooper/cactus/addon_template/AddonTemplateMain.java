@@ -17,7 +17,7 @@ public class AddonTemplateMain implements ICactusAddon {
 
 	public static final Logger LOGGER = LoggerFactory.getLogger("Cactus Addon Template");
 
-	public static final Category CATEGORY = new Category("exampleCategory", Items.DIAMOND.getDefaultInstance());
+	public static final Category CATEGORY = new Category("exampleCategory", Items.DIAMOND);
 
 	@Override
 	public void onInitialize(RegistryBus registryBus) {
